@@ -1,7 +1,14 @@
 ## Netflix Movies and TV Shows Data Analysis
-Data visualization project of Covid-19 virus for the continental US.
+Data analysis and visualization project of Netflix Movies and TV Shows dataset as of 2019.
 
 Source: https://www.kaggle.com/shivamb/netflix-shows
+
+## Project Description and Purpose
+* Understand the popularity of movies and TV shows on Netflix in different countries
+* Explore Netflix's vision on focusing on which contents in recent years
+* Understand what content is available for different target audience (kids, teenagers, adults)
+* Find correlation between target audience and duration of each kinds of contents
+* Explore genre of different types of movies and TV shows
 
 ## Technologies and Implementations
 The project is created with:
@@ -13,24 +20,16 @@ The project is created with:
 * Plotly
 * Scikit-learn
 
-## Data Processing (Pandas DataFrame)
-* Merge raw cases and deaths data into one dataframe
-* Remove unnecessary information such as uid, lat, long, cruise ships and non-continental US region 
-* Transform from wide to long dataframe by pivoting the date columns to rows
-* Perform calculation to transform the dataset from counties to states and the US
-* Perform calculation to add daily cases and daily deaths data
-* Replace missing value NaN with 0
-* Create a second dataframe that includes data for the US overall
+## Data Prerocessing
+* Preprosess data type for each column and deal with missing data
+* Remove unnecessary information such as director, cast, description
+* Create useful information from unstructured data
 
 ## Graphs and Plots
-* US total cases and deaths
-* US fatality rate
-* US total daily cases
-* US choropleth map
-* US daily Cases heatmap
-* Total cases of states
-* Daily cases of states
-* Top 5 with the most cases
-* Top 5 fatality rate vs US fatality rate
-* Top 5 daily cases & US average daily cases
-* Timeline comparison of top 5 states
+* Comparison between Movies and TV Shows of Top 10 Popular Countries
+* Contented added over years 
+* Content released over years
+* Distribution of Netflix Ratings
+* Distribution of Movie Rating and TV Show over Netflix Rating
+* Distribution of duration of movies and TV shows
+* Movie Genre and TV Show Genre
