@@ -21,7 +21,7 @@ The project is created with:
 * Scikit-learn
 
 ## Data Prerocessing
-* Preprosess data type for each column and deal with missing data
+* Preprocess data type for each column and deal with missing data
 * Remove unnecessary information such as director, cast, description
 * Create useful information from unstructured data
 
