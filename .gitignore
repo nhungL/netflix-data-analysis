@@ -1,0 +1,11 @@
+# Ignore files
+*.iml
+.DS_Store
+
+#Ignore folder
+.ipynb_checkpoints/
+.idea/
+
+#Ignore data source
+netflix_titles.csv
+
