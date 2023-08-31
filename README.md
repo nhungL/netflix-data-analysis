@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 ## Netflix Movies and TV Shows Data Analysis
 Data analysis and visualization project of Netflix Movies and TV Shows dataset as of 2021.
 
