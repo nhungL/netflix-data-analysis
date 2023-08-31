@@ -1,5 +1,5 @@
 # Ignore files
-*.iml
+netflix-data-analysis.iml
 .DS_Store
 
 #Ignore folder
