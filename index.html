@@ -13098,7 +13098,10 @@ div#notebook {
 <span class="n">di</span><span class="o">.</span><span class="n">display_html</span><span class="p">(</span><span class="s1">&#39;&lt;script&gt;jQuery(function() {if (jQuery(&quot;body.notebook_app&quot;).length == 0) { jQuery(&quot;.input_area&quot;).toggle(); jQuery(&quot;.prompt&quot;).toggle();}});&lt;/script&gt;&#39;</span><span class="p">,</span> <span class="n">raw</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="c1"># This line will add a button to toggle visibility of code blocks, for use with the HTML export version</span>
-<span class="n">di</span><span class="o">.</span><span class="n">display_html</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&lt;button onclick=&quot;jQuery(&#39;.input_area&#39;).toggle(); jQuery(&#39;.prompt&#39;).toggle();&quot;&gt;Toggle code&lt;/button&gt;&#39;&#39;&#39;</span><span class="p">,</span> <span class="n">raw</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">di</span><span class="o">.</span><span class="n">display_html</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&lt;button onclick=&quot;jQuery(&#39;.input_area&#39;).toggle(); jQuery(&#39;.prompt&#39;).toggle();&quot;&gt;TOGGLE TO SEE CODES&lt;/button&gt;&#39;&#39;&#39;</span><span class="p">,</span> <span class="n">raw</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1">#Redirect to recommendation system HTML</span>
+<span class="n">di</span><span class="o">.</span><span class="n">display_html</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&lt;button onclick=&quot;window.location.href = </span><span class="se">\&#39;</span><span class="s1">https://nhungl.github.io/netflix-recommendation-system</span><span class="se">\&#39;</span><span class="s1">;&quot;&gt;GO TO NETFLIX RECOMMENDATION SYSTEM&lt;/button&gt;&#39;&#39;&#39;</span><span class="p">,</span> <span class="n">raw</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13128,7 +13131,19 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<button onclick="jQuery('.input_area').toggle(); jQuery('.prompt').toggle();">Toggle code</button>
+<button onclick="jQuery('.input_area').toggle(); jQuery('.prompt').toggle();">TOGGLE TO SEE CODES</button>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<button onclick="window.location.href = 'https://nhungl.github.io/netflix-recommendation-system';">GO TO NETFLIX RECOMMENDATION SYSTEM</button>
 </div>
 
 </div>
